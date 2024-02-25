@@ -37,8 +37,11 @@ function updateCity(event) {
     </div>
     <div class="time">${cityTime.format("hh:mm:ss ")}<small>${cityTime.format(
     "A"
-  )}</small></div>
-        </div>`;
+  )}</small>
+  
+  </div>
+  </div>
+  <span class="home-button"><a href="index.html">Home Page</a></span>`;
 }
 
 let citySelectElement = document.querySelector("#city-select");
